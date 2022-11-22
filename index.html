@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!--metadatos-->
+  <meta charset="utf-8">
+  <meta name="author" content="Alan Ocampo">
+  <meta name="description" content="portfolio de desarrollo web">
+  <meta name="Keywords" content="HTML, CSS, JavaScript, React">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- iconos de bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <!--CSS-->
+  <link href="styles.css" rel="stylesheet">
+    <title>Alan Ocampo | Desarrollo web front end</title>
+  <!--Favicon-->
+  <link rel="icon" type="image/x-icon" href="images/faviconAlan.ico">
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Glitch&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-light glitch-class">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <img src="images/iconodigichip.ico" width="50" alt="Logo de la web">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link texto-verde" aria-current="page" href="#sobre-mi">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link texto-verde" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link texto-verde" href="#testimonios">Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link texto-verde" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>  
+  <!-- Hero -->
+  <section class="hero align-items-stretch" id="hero-background">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <img class="hero-imagen-perfil" src="images/foto.png" alt="foto perfil">
+      <h1 class="glitch-class texto-verde">Hola, Soy Alan Ocampo</h1>
+      <h2 class="glitch-class texto-verde">Soy un Desarrollador apasionado por el software</h2>
+    </div>
+    <div class="hero-inferior">
+      <img class="hero-inferior-imagen img-fluid" src="images/hero-inferior.svg">
+    </div>
+  </section>
+  <!-- Sobre mí -->
+  <section id="sobre-mi" class="sobre-mi seccion-oscura glitch-class">
+    <div class="contenedor">
+      <h2 class="seccion-titulo">Sobre mí</h2>
+      <p class="seccion-texto">Me impulsa la curiosidad por la tecnología y el software, además de como se relaciona con la sociedad moderna actual.
+        Soy un autodidacta apasionado por la programación, la investigación y el analisis.No temo a los retos, siempre estoy en busqueda de superar mis propias limitantes.
+      </p>
+    </div>
+  </section>
+  <!-- experiencia -->
+  <section class="experiencia seccion-clara">
+    <div class="container text-center">
+      <div class="row">
+        <!-- Desarrollo Web -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo glitch-class">Desarrollo Web</p>
+          <p class="glitch-class">Mantenimiento y optimización de sitios web e interfaces de usuario.
+            Crear herramientas y elementos que mejoren la interacción con el sitio en cualquier dispositivo o browser.
+            Mejorar la usabilidad para el usuario e implementar nuevas funcionalidades y procesos. </p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">HTML</span>
+            <span class="badge text-bg-primary">CSS</span>
+            <span class="badge text-bg-primary">JavaScript</span>
+            <span class="badge text-bg-primary">React</span>
+            <span class="badge text-bg-primary">Django</span>
+          </div>
+        </div>
+        <!-- Articulos -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-pc-display-horizontal"></i>
+          <p class="experiencia-titulo glitch-class">Analitics</p>
+          <p class="glitch-class">Preparación de los datos para el análisis.Búsqueda de patrones en conjuntos de información y visualización de los datos para comprender rápidamente los resultados actuales y las tendencias futuras.</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Power Bi</span>
+            <span class="badge text-bg-primary">Python</span>
+            <span class="badge text-bg-primary">Pandas</span>
+          </div>
+        </div>
+        <!-- Estudiante -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo glitch-class">Estudiante</p>
+          <p class="glitch-class">Soy un desarrollador web impulsado por el descubrimiento y el aprendizaje.No temo a los retos que presentan las nuevas tecnologías y el cambio constante de paradigmas.</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">freeCodeCamp</span>
+            <span class="badge text-bg-primary">Autodidacta</span>
+            <span class="badge text-bg-primary">Udemy</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+  <!-- Proyectos -->
+  <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column glitch-class">
+    <h2 class="seccion-titulo texto-negro">
+      Mis proyectos
+    </h2>
+    <h3 class="seccion-descripcion">
+      Estos son algunos proyectos que he creado recientemente
+    </h3>
+    <!-- Galeria de proyectos -->
+    <div class="container text-center proyecto-contenedor">
+      <div class="row">
+        <!-- proyecto 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="images/proyecto1.png" alt="proyecto 1">
+            <div class="overlay">
+              <p>
+                Portfolio creado con HTML, CSS,JS,React
+              </p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/alefra88/portfolio2022" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://alefra88.github.io/portfolio2022/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-browser-chrome"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="images/proyecto2.png" alt="proyecto 2">
+            <div class="overlay">
+              <p>
+                Pagina web creada utilizando HTML, CSS, JS, SASS
+              </p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/alefra88/digichip" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://alefra88.github.io/digichip/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-browser-chrome"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="images/proyecto3.png" alt="proyecto 3">
+            <div class="overlay">
+              <p>
+                Portfolio dinámico creado con HTML, CSS,JS
+              </p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/alefra88/portfolio2022" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-braces"></i>
+                </a>
+                <a href="https://github.com/alefra88/portafoliodinamico" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-browser-chrome"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 4 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="images/proyecto4.png" alt="proyecto 4">
+            <div class="overlay">
+              <p>
+                Pagina de decomentación creada con HTML y CSS
+              </p>
+              <div class="iconos-contenedor">
+                <a href="https://codepen.io/alefra88/pen/ZEvamNL" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-braces"></i>
+                </a>
+                <a href="https://codepen.io/alefra88/full/ZEvamNL" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-browser-chrome"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 5 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="images/proyecto5.png" alt="proyecto 5">
+            <div class="overlay">
+              <p>
+                Landing page cread con HTML y CSS
+              </p>
+              <div class="iconos-contenedor">
+                <a href="https://codepen.io/alefra88/pen/qBpVRXV" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://codepen.io/alefra88/full/qBpVRXV" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-browser-chrome"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 6 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="images/proyecto6.png" alt="proyecto 6">
+            <div class="overlay">
+              <p>
+                Portfolio creado con HTML, CSS,JS y bootstrap
+              </p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/alefra88/portfolio2022" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://alefra88.github.io/portfolio2022/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-browser-chrome"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="https://github.com/alefra88" rel="noopener noreferrer" target="_blank">
+      <button type="button" class="btn btn-secondary">
+        Ver más Proyectos
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+  </section>
+  <!-- Articulos -->
+  <section class="articulos justify-content-start">
+    <h2 class="glitch-class">Certificados</h2>
+    <div class="card">
+      <div class="card-header">
+        Más recientes
+      </div>
+      <ul class="list-group list-group-flush">
+        <a href="https://www.freecodecamp.org/certification/Antrops/responsive-web-design" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">Responsive Web Design</li>
+        </a>
+        <a href="https://www.freecodecamp.org/certification/Antrops/javascript-algorithms-and-data-structures" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">JavaScript Algorithms and Data Structures</li>
+        </a>
+        <a href="https://www.udemy.com/certificate/UC-9162289b-cb91-433f-93c2-1f4dbc2a4d2c/" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item"> Universidad HTML - Aprende HTML desde Cero hasta Experto</li>
+        </a>
+        <a href="https://www.udemy.com/certificate/UC-e30015ca-5883-453d-b440-0a3bc6529412/" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">CSS3 and Bootstrap for Absolute Beginners : 4 courses in 1 </li>
+        </a>
+        <a href="https://www.udemy.com/certificate/UC-67c7f837-64a9-4707-bf13-0b03b093b99a/" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">Curso de Branding - Marca, Identidad Corporativa, Logotipo.</li>
+        </a>
+        <a href="https://www.udemy.com/certificate/UC-765e37e4-86cb-4aca-8ca6-bf8f287ae310/" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">  Introduction to Design Thinking and Product Development.</li>
+        </a>
+        <a href="https://www.udemy.com/certificate/UC-d23ea600-d612-4940-9e4e-4e87f0b4027a/" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item"> Microsoft Excel: De cero a analista de datos en Power BI</li>
+        </a>
+        <a href="https://www.udemy.com/certificate/UC-d8580d23-a8bc-453b-a46e-85577ed219a5/" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">Curso Linux desde cero</li>
+        </a>
+        <a href="https://www.udemy.com/certificate/UC-c1cb5562-873c-4207-8bae-9ebb452a52a6/" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item"> Curso de algoritmos y lógica de programación</li>
+        </a>
+        <a href="https://www.udemy.com/certificate/UC-e79f799e-0e61-4aee-b54a-a04b908f3a1d/" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item"> Python PCEP: Certified Entry-Level Python Programmer</li>
+        </a>
+        <a href="https://www.udemy.com/certificate/UC-23ab706e-e703-44d3-abba-1de13df86caa/" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">Growth Marketing: Aprende Growth Hacking.</li>
+        </a>
+        <a href="https://www.hackerrank.com/certificates/fc18d68187f4" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item"> Python (Basic) Certificate.</li>
+        </a>
+        <a href="https://www.udemy.com/certificate/UC-c671ed18-1fc6-487f-ae03-7719e0e43afd/" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item"> Fundamentos y Lógica de Programación - Bootcamp 2021</li>
+        </a>
+        <a href="https://www.udemy.com/certificate/UC-dcb3b787-cda1-4cad-98a7-829e596a7859/" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item"> Agile Coaching</li>
+        </a>
+        <a href="https://www.udemy.com/certificate/UC-3c421d5e-08e6-44b2-a2d7-0caae6f672f7/" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item"> Certificado SCRUM master</li>
+        </a>
+        <a href="https://www.udemy.com/certificate/UC-416943ac-0baa-4f0a-ba85-636d1ee8107a/" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">Máster en SQL Server: Desde Cero a Nivel Profesional.</li>
+        </a>
+        <a href="https://www.udemy.com/certificate/UC-5fa85d88-4947-4139-9e66-d42a9054296b/" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">  UX Research y Journey Map.</li>
+        </a>
+      </ul>
+    </div>
+    <a href="https://www.linkedin.com/in/alan-e-ocampo-9a2901172/details/certifications/" rel="noopener noreferrer" target="_blank">
+      <button type="button" class="btn btn-secondary glitch-class">
+        Ver más Certificados
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+
+  </section>
+  <!-- Testimonios -->
+  <section id="testimonios" class="testimonios seccion-clara">
+    <h2 class="seccion-titulo glitch-class">Testimonios</h2>
+    <h3 class="seccion-descripcion texto-negro">Estos son algunos testimonios de mis clientes...</h3>
+    
+    <!-- Carrusel -->
+    <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="images/cliente1.jpg" alt="Foto de HP">
+            <p class="testimonio-texto">Desde que conosco al desarrollador web Alan E. Ocampo, me crecio la barba, lo cual era el sueño de toda mi vida. Además gracias a su ingenio pude llegar a master en tft.</p>
+            <div class="testimonio-info">
+              <p class="cliente">Harry Patric</p>
+              <p class="cargo">Actor/cantante/modelo</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="images/cliente2.jpg" alt="Foto de Moonchild">
+            <p class="testimonio-texto">Tengo una empresa apicultora, gracias a la app que el desarrollador creo para mi. Nuestras ganancias se triplicaron en un año, además podemos hacer ventas en diferentes partes de la republica mexicana.</p>
+            <div class="testimonio-info">
+              <p class="cliente">Moonchild Sanelly</p>
+              <p class="cargo">Gerente de Miel natural S.A de C.V.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="images/cliente3.jpg" alt="Foto de Leonardo">
+            <p class="testimonio-texto">Desde que conosco al desarrollador web Alan E. Mi pelaje empezo a mejorar y brillar mas, mis pezuñas se volvieron de titanio indestructible y además pude conocer a Spirit personalmente.Oigan soy un caballo, no deberia poder escribir(empieza relinchar).</p>
+            <div class="testimonio-info">
+              <p class="cliente">Leonardo el caballo</p>
+              <p class="cargo">Caballo en un rancho de la sierra de Guerrero</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="images/cliente4.jpg" alt="Cosme">
+            <p class="testimonio-texto">Desde que conosco al desarrolador web Alan E. Ocampo, pude lograr salir del manicomio e integrarme a la sociedad. Actualmente trabajo en un OXXO acomodando gansitos en los refrigeradores.</p>
+            <div class="testimonio-info">
+              <p class="cliente">Cosme Fulanito</p>
+              <p class="cargo">Ciudadano ejemplar</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="images/cliente5.jpg" alt="Foto de ella">
+            <p class="testimonio-texto">Desde que conosco al desarrolador web Alan E. Pude superar mis crisis nerviosas, deje de comerme las uñas y pude dejar de morder los lapices.</p>
+            <div class="testimonio-info">
+              <p class="cliente">Antonella Monte Negro</p>
+              <p class="cargo">Secretaria en un despacho de abogados</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section>
+  <!-- Contacto -->
+  <section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+      <div class="container text-center d-flex rectangulo justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo glitch-class">
+            ¡Hablemos!
+          </div>
+          <div class="col-12 col-md-4 descripcion">
+            Contactame para iniciar tu proyecto y haré que tu diseño se vuelta realidad
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:efra.rlz@outlook.com">
+              <button type="button">
+                Contacto
+                <i class="bi bi-envelope-check-fill"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-icono" src="images/icono-blanco.svg" alt="logo del portfolio">
+    <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://github.com/alefra88" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/alan-e-ocampo-9a2901172/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://www.freecodecamp.org/Antrops" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-code"></i>
+      </a>
+    </div>
+    <div class="derechos-autor">Creado por Alan Dev &#169;</div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
